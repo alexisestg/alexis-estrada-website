@@ -1,0 +1,66 @@
+name: GitHub Pages development preview
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-preview
+  cancel-in-progress: false
+
+jobs:
+  build:
+    # Standard public-repository runners only; private-repository costs are not authorized.
+    if: github.event.repository.private == false
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    timeout-minutes: 5
+    defaults:
+      run:
+        working-directory: alexis_site
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Audit repository candidates
+        run: npm run audit:repo
+      - name: Run tests
+        run: npm test
+      - name: Read configured Pages URL
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Build preview artifact and validate links
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          test -n "$SITE_URL"
+          npm run build:pages
+          npm run audit:pages
+      - name: Upload only generated public files
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: alexis_site/_site
+          retention-days: 1
+
+  deploy:
+    if: github.event.repository.private == false
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy preview
+        id: deployment
+        uses: actions/deploy-pages@v4

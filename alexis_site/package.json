@@ -1,0 +1,14 @@
+{
+  "name": "alexis-estrada-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:pages": "node scripts/build.mjs --pages",
+    "audit:pages": "node scripts/pages-audit.mjs",
+    "audit:repo": "node scripts/repo-audit.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node --test scripts/site.test.mjs scripts/pages.test.mjs"
+  },
+  "engines": {"node": ">=20"}
+}

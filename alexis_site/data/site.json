@@ -1,0 +1,128 @@
+{
+  "name": "Alexis Estrada",
+  "siteUrl": null,
+  "location": "Cuernavaca, Morelos, México",
+  "biography": [
+    "Alexis Estrada (Cuernavaca, Morelos, 1997) es un artista visual mexicano, egresado de la Facultad de Artes de la Universidad Autónoma del Estado de Morelos (UAEM). Su práctica reciente se centra principalmente en la pintura al óleo.",
+    "En 2023 realizó una estancia de estudios en la Universidad de Zaragoza, España, donde participó en la Micro-residencia artística 2.8 y presentó el trabajo desarrollado durante el programa en Open Space.",
+    "Ha presentado exposiciones individuales en 2023 y 2026 y participado en exposiciones colectivas en México y España."
+  ],
+  "practice": {
+    "title": "Un diario visual",
+    "paragraphs": [
+      "Últimamente pienso en mis pinturas como una especie de diario visual. Hago arte desde niño y siempre ha sido una forma de guardar, en algún lugar profundo, cosas que son importantes para mí. Cuando veo una pintura que hice años atrás, todavía puedo sentir algo de lo que sentía mientras la pintaba.",
+      "La mayoría de mis pinturas empiezan con fotografías. No busco fotografías perfectas ni escenas cuidadosamente preparadas. Busco imágenes que conserven la sensación auténtica de un momento espontáneo: fotos que, en ese instante, simplemente sentí que debía tomar. Todos tenemos fotografías favoritas; las que pinto son las mías.",
+      "Hace un par de años, la nostalgia en mi trabajo nacía de no querer soltar las cosas. Estoy tratando de cambiar esa relación. En lugar de lamentar esos momentos porque ya terminaron, quiero apreciarlos porque sucedieron.",
+      "Los recuerdos también se construyen en los entornos más cotidianos, incluso en momentos que no parecen extraordinarios mientras los vivimos. Pintar se ha convertido en mi manera de preservarlos."
+    ],
+    "process": "La selección de una imagen ya es una decisión artística. Al llevarla a la pintura, el conocimiento técnico aporta estructura; la pincelada, el color, la textura, la omisión, la distorsión, los accidentes y las zonas de soporte expuesto responden a lo que esa imagen necesita. Las decisiones técnicas sirven a la experiencia que se busca preservar."
+  },
+  "evolution": [
+    {
+      "period": "2021–2022",
+      "text": "Tras una etapa vinculada a la ilustración digital, exploró el carboncillo, el collage, el acrílico y el óleo. La representación y el acabado tenían un peso central, mientras empezaba a preguntarse qué debía comunicar una obra y a conceder más importancia al gesto."
+    },
+    {
+      "period": "2023–2024",
+      "text": "La estancia en Zaragoza amplió sus medios y su forma de trabajar. El dibujo con modelo vivo reforzó el valor del criterio artístico frente a la reproducción exacta. La experiencia personal cobró mayor importancia; el amor, el desamor, la muerte y el temor a perder o soltar formaban parte de las preocupaciones de esta etapa."
+    },
+    {
+      "period": "Hacia 2026",
+      "text": "La investigación de 2024 planteaba abrir espacio a relaciones positivas y experiencias felices. Esa ampliación forma parte del trabajo actual: la experiencia humana puede estar presente en un paisaje o en los objetos que quedan después de un encuentro, sin que una figura humana aparezca en la imagen."
+    }
+  ],
+  "cv": {
+    "education": [
+      {
+        "year": "2020–2025",
+        "text": "Licenciatura en Artes, Facultad de Artes, Universidad Autónoma del Estado de Morelos (UAEM), México."
+      },
+      {
+        "year": "2023",
+        "text": "Estancia de estudios / intercambio en la Universidad de Zaragoza, España."
+      }
+    ],
+    "residencies": [
+      {
+        "year": "2023",
+        "text": "Micro-residencia artística 2.8, durante la estancia en Zaragoza. Presentación del trabajo desarrollado en Open Space."
+      }
+    ],
+    "exhibitionSummary": "Exposiciones individuales en 2023 y 2026; participación en exposiciones colectivas en México y España.",
+    "exhibitions": [
+      {
+        "year": "2024",
+        "text": "Diálogos contemporáneos",
+        "venue": null,
+        "type": null
+      },
+      {
+        "year": "2024",
+        "text": "Casa Tránsito",
+        "venue": null,
+        "type": null
+      },
+      {
+        "year": "2023",
+        "text": "Axolotl Knight",
+        "venue": null,
+        "type": null
+      },
+      {
+        "year": "2023",
+        "text": "Micro-residencias 2.8",
+        "venue": null,
+        "type": null
+      },
+      {
+        "year": "2022",
+        "text": "Delirios",
+        "venue": null,
+        "type": null
+      },
+      {
+        "year": "2021",
+        "text": "Aquí no hay playa",
+        "venue": null,
+        "type": null
+      }
+    ]
+  },
+  "email": "alexis062435@gmail.com",
+  "links": [],
+  "projects": [
+    {
+      "id": "mountains",
+      "slug": "mountains",
+      "title": "MOUNTAINS",
+      "year": 2026,
+      "summary": "Paisajes vinculados a encuentros, compañía y detalles que vuelven personal un lugar.",
+      "description": [
+        "MOUNTAINS parte de la experiencia de subir a una montaña y encontrarse ante un paisaje de gran escala. La sensación de pequeñez convive con la paz de estar frente a algo imponente.",
+        "Lo que hace memorable un paisaje son también las personas que estuvieron allí, los encuentros inesperados y detalles como un perro al borde de un acantilado mirando el horizonte. Esas presencias convierten la vista en un lugar personal.",
+        "La pintura se construye con marcas sueltas, textura, accidentes y partes del lienzo que quedan expuestas. La disposición a dejar que aparezcan esos elementos permite que el proceso siga siendo visible."
+      ],
+      "metaDescription": "MOUNTAINS (2026), de Alexis Estrada: paisajes, encuentros personales y una pintura construida con marcas sueltas, textura y accidentes."
+    },
+    {
+      "id": "cervezas",
+      "slug": "cervezas",
+      "title": "CERVEZAS",
+      "year": 2026,
+      "summary": "Botellas y latas como huellas de conversaciones, amistades y momentos compartidos.",
+      "description": [
+        "CERVEZAS nace de un archivo personal de fotografías reunido durante años: noches con amigos, conversaciones, encuentros y lo que queda después. Las imágenes se tomaron porque algo en ese momento merecía guardarse, antes de pensar en convertirlas en pinturas.",
+        "Las botellas, las latas, las mesas y los espacios de reunión sugieren historias compartidas y vínculos. Funcionan como huellas materiales de momentos felices y de las personas que los hicieron posibles.",
+        "El alcohol forma parte de esas experiencias. Para el artista, bajar la guardia puede facilitar la conversación y permitir que se digan cosas que de otro modo quedarían sin decir. La vulnerabilidad y la conexión atraviesan estas escenas; entre sus rastros hay un fregadero lleno de latas y botellas vacías."
+      ],
+      "metaDescription": "CERVEZAS (2026), de Alexis Estrada: un archivo de encuentros con amigos, conversaciones y las huellas materiales de momentos compartidos."
+    }
+  ],
+  "seo": {
+    "home": "Colección de obra de Alexis Estrada, artista visual mexicano de Cuernavaca, Morelos, cuya práctica reciente se centra en la pintura al óleo.",
+    "about": "Biografía y práctica de Alexis Estrada: la pintura como diario visual, archivo fotográfico personal y memoria de la experiencia vivida.",
+    "projects": "MOUNTAINS y CERVEZAS, series de 2026 de Alexis Estrada: paisajes personales y huellas de encuentros compartidos.",
+    "cv": "Formación de Alexis Estrada en la UAEM, estancia en Zaragoza, Micro-residencia artística 2.8 y exposiciones documentadas.",
+    "contact": "Contacto de Alexis Estrada, artista visual en Cuernavaca, Morelos, México: alexis062435@gmail.com."
+  }
+}
