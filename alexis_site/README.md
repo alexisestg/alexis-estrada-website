@@ -144,7 +144,8 @@ la fuente, criterios y TODOs internos y se excluye de Git y del artifact públic
 
 En Sobre mí, la biografía informa identidad y trayectoria; «Un diario visual»
 presenta la voz del artista traducida de la página 3; el proceso desarrolla
-la página 6 y la evolución mantiene fechados los antecedentes de 2021–2024.
+la página 6. La evolución se conserva como contexto interno en los datos y las
+fuentes de referencia, pero no se presenta como cronología en la página pública.
 Las páginas de MOUNTAINS y CERVEZAS tienen textos propios de las páginas 7–8,
 sin repetir el statement ni atribuirles imágenes de A01–A15.
 

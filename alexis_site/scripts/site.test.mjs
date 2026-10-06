@@ -61,10 +61,11 @@ test('Confirmed contact and education render, with no telephone or social invent
   assert.match(pages.get('cv/index.html'),/Universidad Autónoma del Estado de Morelos/);
   for (const html of pages.values()) assert.doesNotMatch(html,/href="tel:|instagram\.com|facebook\.com/);
 });
-test('Practice, biography and series have distinct roles; historical content is labelled', () => {
+test('About focuses on current practice; chronology remains internal', () => {
   const about = pages.get('sobre-mi/index.html');
-  assert.match(about,/Práctica actual · 2026/); assert.match(about,/Evolución de la práctica/);
-  assert.match(about,/2021–2022/); assert.match(about,/2023–2024/);
+  assert.match(about,/Práctica actual · 2026/);
+  assert.doesNotMatch(about,/Evolución de la práctica|#evolucion|2021–2022|2023–2024|Hacia 2026/);
+  assert.deepEqual(site.evolution.map(entry=>entry.period),['2021–2022','2023–2024','Hacia 2026']);
   assert.match(about,/quiero apreciarlos porque sucedieron/);
   assert.doesNotMatch(site.biography.join(' '),/diario visual|nostalgia/);
   for (const p of site.projects) {
